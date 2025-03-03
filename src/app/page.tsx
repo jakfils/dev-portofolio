@@ -1,5 +1,5 @@
 export default function Home() {
   return (
-    <h1>Bonjour</h1>
+    <h1 className="text-8xl font-poppins">Bonjour</h1>
   );
 }
