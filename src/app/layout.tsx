@@ -13,7 +13,6 @@ const poppins = Poppins({
 });
 import "./globals.css";
 
-
 export const metadata: Metadata = {
   title: "Developper Portofolio",
   description:

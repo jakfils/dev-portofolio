@@ -3,7 +3,7 @@ import { FaXTwitter } from "react-icons/fa6";
 import Link from "next/link";
 const Footer = () => {
   return (
-    <div className="flex justify-center items-center gap-5 text-2xl py-6">
+    <div className="flex items-center justify-center gap-5 py-6 text-2xl">
       <Link href="#">
         <FaGithub />
       </Link>

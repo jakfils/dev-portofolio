@@ -5,6 +5,8 @@
   --font-poppins: var(--font-poppins);
   --color-white: #ffffff;
   --color-black: #171717;
+  --color-gradient-start: #9C83FF;
+  --color-gradient-end: #FF9051
 }
 
 :root {
@@ -35,5 +37,18 @@ body {
     @apply cursor-pointer font-poppins text-[var(--color-black)] border-2 border-[var(--color-white)] px-4 py-2 rounded-xl bg-[var(--color-white)];
   }
 
+  .button-primary-3 {
+    @apply cursor-pointer font-poppins text-[var(--color-white)] border-1 border-[var(--color-white)] px-4 py-2 rounded-3xl bg-[var(--color-black)];
+  }
 
+  .button-gradient {
+    @apply flex justify-center items-center bg-gradient-to-r from-[var(--color-gradient-start)] to-[var(--color-gradient-end)] rounded-full pt-[1px] pb-[0.5px] px-[0.5px]
+  }
+
+  .button-gradient-div {
+    @apply bg-[var(--color-black)] rounded-full flex justify-center items-center px-2 w-full h-full text-xs
+  }
+  .text-gradient {
+    @apply bg-gradient-to-r from-[var(--color-gradient-start)] to-[var(--color-gradient-end)] inline-block text-transparent bg-clip-text
+  }
 }

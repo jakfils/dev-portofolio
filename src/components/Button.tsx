@@ -5,5 +5,9 @@ export function Button({
   children: React.ReactNode;
   className?: string;
 }) {
-  return <button className={className}>{children}</button>;
+  return (
+    <button type="button" className={className}>
+      {children}
+    </button>
+  );
 }

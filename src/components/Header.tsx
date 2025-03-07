@@ -3,7 +3,7 @@ import HamburgerMenu from "./HamburgerMenu";
 import Link from "next/link";
 const Header = () => {
   return (
-    <header className="flex px-4 justify-between items-center pt-8 px sticky top-0 md:justify-around backdrop-blur-3xl z-10">
+    <header className="px sticky top-0 z-10 flex items-center justify-between px-4 pt-8 backdrop-blur-3xl md:justify-around">
       <Link href="/">j@kfils</Link>
       <nav className="hidden gap-4 md:flex">
         <Button className="button-primary-1">About me</Button>
