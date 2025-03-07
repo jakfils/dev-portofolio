@@ -1,6 +1,6 @@
 "use client";
 import { useState } from "react";
-import { Menu, X } from "lucide-react";
+import { IoClose, IoMenu } from "react-icons/io5";
 import Link from "next/link";
 
 const HamburgerMenu = () => {
@@ -16,7 +16,7 @@ const HamburgerMenu = () => {
         onClick={toggleMenu}
         className="text-xl p-2 rounded-lg text-[var(--color-white)]"
       >
-        {isOpen ? <X size={24} /> : <Menu size={24} />}
+        {isOpen ? <IoClose size={32} /> : <IoMenu size={32} />}
       </button>
 
       <div
